@@ -5,7 +5,6 @@ use crate::model::block::Block;
 use crate::model::direction::Direction;
 use crate::service::draw::draw_block;
 
-
 const SNAKE_COLOR: Color = [0.0, 0.80, 0.0, 1.00];
 
 pub struct Snake {
@@ -68,7 +67,7 @@ impl Snake {
         };
         next_head
     }
-    pub fn direction(&self) -> &Direction {
+    pub fn get_direction(&self) -> &Direction {
         &self.direction
     }
 

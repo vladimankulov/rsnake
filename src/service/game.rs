@@ -45,7 +45,7 @@ impl Game {
         };
 
         if next_direction.is_some() {
-            if self.snake.direction().opposite() == next_direction.unwrap() {
+            if self.snake.get_direction().opposite() == next_direction.unwrap() {
                 return;
             }
         }
@@ -102,7 +102,7 @@ impl Game {
             println!("snake is overlapped");
             return false;
         }
-        snake_head.x > 0 && snake_head.y > 0 && snake_head.x < self.width - 1 && snake_head.y < self.height
+        snake_head.x > 0 && snake_head.y > 0 && snake_head.x < self.width - 1 && snake_head.y < self.height - 1
     }
 
     pub fn add_food(&mut self) {

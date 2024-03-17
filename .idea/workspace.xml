@@ -8,13 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e357bed5-edd9-4438-aa56-d380a8eb45b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/block.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/direction.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/snake.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/draw.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/game.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roadmap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/snake.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/snake.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/game.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/game.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +95,7 @@
       <workItem from="1710259164274" duration="615000" />
       <workItem from="1710407512180" duration="10000" />
       <workItem from="1710408329695" duration="14000" />
-      <workItem from="1710671758234" duration="12974000" />
+      <workItem from="1710671758234" duration="14366000" />
     </task>
     <servers />
   </component>
